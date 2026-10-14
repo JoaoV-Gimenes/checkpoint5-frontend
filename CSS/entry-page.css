@@ -1,0 +1,84 @@
+header {
+    background-color: #09090B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px 32px;
+}
+
+header h1 {
+    color: #F4F4F5;
+    font-size: 24px;
+    line-height: 32px;
+    @media (max-width: 500px) {
+            padding: 16px 24px;
+        }
+}
+
+.nav-options {
+    color: #A1A1AA;
+
+    @media (max-width: 500px) {
+        display: none;
+    }
+}
+
+.botao-baixar {
+    background-color: #F4F4F5;
+    color: #09090B;
+    padding: 12px 24px;
+    border-radius: 8px;
+
+    @media (max-width: 500px) {
+            padding: 8px 16px;
+        }
+}
+
+.entry-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #09090B;
+    gap: 48px;
+    padding-top: 80px;
+}
+
+.entry-page h1 {
+    color: #F4F4F5;
+}
+
+.entry-page h2 {
+    color: #A1A1AA;
+}
+
+.botao-main-planos {
+    color: #F4F4F5;
+    border: solid 1.5px;
+    border-color: #F4F4F5;
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+
+.botao-baixar-entry{
+    background-color: #F4F4F5;
+    color: #09090B;
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+
+.main-entry-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
