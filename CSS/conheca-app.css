@@ -1,0 +1,52 @@
+.conheca-app{
+    background-color: #18181B;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 500px) {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 24px;
+        }
+}
+
+.textos-conheca{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    @media (max-width: 500px) {
+            padding: 48px 24px;
+        }
+}
+
+.textos-conheca h3{
+    color: #F7B733;
+    font-size: 14px;
+    @media (max-width: 500px) {
+        font-size: 14px;
+        }
+}
+
+.textos-conheca h1{
+    color: #F4F4F5;
+    font-size: 48px;
+    @media (max-width: 500px) {
+        font-size: 24px;
+        }
+}
+
+.textos-conheca p{
+    color: #A1A1AA;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.conheca-app img{
+    @media (max-width: 500px) {
+        width: 312px;
+        height: 320px;
+        }
+}
