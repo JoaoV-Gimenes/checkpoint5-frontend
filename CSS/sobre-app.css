@@ -1,0 +1,131 @@
+.sobre-app{
+    background-color: black;
+    padding: 80px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.sobre-app h1{
+    font-size: 32px;
+    line-height: 120%;
+    @media (max-width: 500px) {
+        font-size: 20px;
+        }
+}
+
+.sobre-app p{
+    font-size: 16px;
+    line-height: 160%;
+    @media (max-width: 500px) {
+        font-size: 16px;
+        }
+}
+
+.boxes-1{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    @media (max-width: 500px) {
+        flex-direction: column;
+        width: 400px;
+        }
+}
+
+.box{
+    background-color: #18181B;
+    border-radius: 24px;
+    border: solid 1px;
+    border-color: #27272A;
+    padding: 40px 32px;
+    display: inline-block;
+    flex-direction: column;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.box-biblioteca{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 280px;
+}
+
+.textos-box-gameficado{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 260px;
+}
+
+.box-gameficado{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    max-width: 520px;
+}
+
+.imagem-cel-game img{
+    position: absolute;
+    top: 0;
+    transform: translateY(-100px);
+    @media (max-width: 500px) {
+        display: none;
+        }
+}
+
+.box-compartilhe{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 520px;
+}
+
+.textos-box-compartilhe{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.box-compartilhe-imagem img{
+    
+    top: 0;
+    transform: translateY(-150px);
+    @media (max-width: 500px) {
+        display: none;
+        }
+}
+
+.box-letras{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 520px;
+}
+
+.textos-box-letras{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.box-letras-imagem img{
+    @media (max-width: 500px) {
+        display: none;
+        }
+}
+
+.boxes-2{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    @media (max-width: 500px) {
+        flex-direction: column;
+        }
+}
+
