@@ -1,0 +1,75 @@
+.bora-cantar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.box-bora-cantar{
+    width: 1216px;
+    height: 542px;
+    background-color: #18181B;
+    border: 1px solid;
+    border-color: #27272A;
+    border-radius: 24px;
+    padding: 140px 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    @media (max-width: 500px) {
+        flex-direction: column;
+        padding: 48px 24px;
+        gap: 32px;
+        width: 327px;
+        height: 662px;
+        justify-content: space-around;
+        }
+}
+
+.download-text{
+    color: #F7B733;
+    font-size: 14px;
+    letter-spacing: 8%;
+}
+
+.bora-cantar-textos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bora-cantar-textos p{
+    line-height: 160%;
+    font-size: 16px;
+}
+
+.bora-cantar-textos h1{
+    font-size: 48px;
+    @media (max-width: 500px) {
+        font-size: 24px;
+        }
+}
+
+.imagens-download{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 20px;
+    @media (max-width: 500px) {
+        flex-direction: column;
+        
+        }
+}
+
+.bora-cantar-imagem img{
+    @media (max-width: 500px) {
+        width: 238px;
+        height: 320px;
+        transform:  translateX(90px) translateY(-100px);
+        }
+}

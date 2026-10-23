@@ -1,0 +1,149 @@
+.page-planos{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.box-planos{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    @media (max-width: 500px) {
+        flex-direction: column;
+        }
+}
+.textos-planos-init h3{
+    color: #F7B733;
+    font-size: 14px;
+}
+
+.textos-planos-init h1{
+    font-size: 48px;
+    line-height: 120%;
+    width: 800px;
+    align-items: center;
+    @media (max-width: 500px) {
+        font-size: 24px;
+        width: 327px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+}
+
+.textos-planos-init{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.plano-basico-familia{
+    display: flex;
+    flex-direction: column;
+    background-color: #18181B;
+    border: solid 1px;
+    border-color: #27272A;
+    gap: 32px;
+    padding: 32px;
+    border-radius: 24px;
+    width: 384px;
+    height: 500px;
+}
+
+.plano-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.plano-desc h1{
+    font-size: 20px;
+}
+.plano-basico-main{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.plano-basico-main-botao{
+    display: flex;
+    width: 320px;
+    color: #F4F4F5;
+    border: solid 1.5px;
+    border-color: #F4F4F5;
+    padding: 16px 32px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.plano-basico-details{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.box-text-plano{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.plano-premium{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px transparent;
+    gap: 32px;
+    border-radius: 24px;
+    width: 384px;
+    height: 560px;
+    background: 
+    linear-gradient(#18181B, #18181B) padding-box, /* Cor de fundo interna */
+    linear-gradient(to right, #FC4A1A, #F7B733) border-box; /* Cor da borda */
+}
+
+.borda-laranja{
+    display: flex;
+    background-image: linear-gradient(to right, #FC4A1A, #F7B733);
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    padding: 12px 32px;
+    width: fit-content;
+}
+
+.borda-laranja h2{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.plano-premium-main{
+    padding: 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.plano-premium-valor{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.plano-preco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.observacao-plano-familia p{
+    font-size: 14px;
+}
